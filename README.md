@@ -23,12 +23,12 @@ To get the application running on your server, follow these steps:
    - For Ubuntu:
      ```bash
      sudo apt update
-     sudo apt install openjdk-17-jdk
+     sudo apt install openjdk-17-jdk -y
      ```
 
    - For Amazon Linux:
      ```bash
-     sudo amazon-linux-extras install java-openjdk17
+     sudo amazon-linux-extras install java-openjdk17 -y
      ```
 
 4. After installing Java, run the application with the following command:
@@ -41,6 +41,6 @@ To get the application running on your server, follow these steps:
 
 5. Access the application on port 8081. Ensure that your firewall, security groups, and Network Access Control Lists (NACLs) allow inbound traffic on port 8081.
 
-   Example URL: `http://your_server_ip:8081`
+   Example URL: `http://your_server_public_ip:8081`
 
 That's it! You should now have the Java Spring Boot application up and running on your server.
